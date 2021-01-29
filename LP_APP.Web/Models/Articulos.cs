@@ -7,7 +7,5 @@ namespace LP_APP.Web.Models
 {
     public class Articulos
     {
-        public string Articulo { get; set; }
-
     }
 }

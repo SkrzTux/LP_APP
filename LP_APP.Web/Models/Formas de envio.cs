@@ -2,9 +2,8 @@ using System;
 
 namespace LP_APP.Web.Models
 {
-    public class Suplidores
+    public class Formas_de_envio
     {
-        public string Suplidores { get; set; }
+        public string formasdeenvio { get; set; }
     }
-    public DbSet<Suplidores> Suplidores { get; set; }
 }

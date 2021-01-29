@@ -27,7 +27,7 @@ namespace LP_APP.Web
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<DataContext>(options =>
+            IServiceCollection serviceCollections = services.AddDbContext<DataContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 

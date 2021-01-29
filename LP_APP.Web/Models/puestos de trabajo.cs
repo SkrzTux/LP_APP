@@ -2,10 +2,8 @@ using System;
 
 namespace LP_APP.Web.Models
 {
-    public class Clientes
+    public class Puestos_de_trabajo
     {
-        public string Clientes { get; set; }
+        public string puestosdetrabajo { get; set; }
     }
-
-    public DbSet<Owner> Clientes { get; set; }
 }

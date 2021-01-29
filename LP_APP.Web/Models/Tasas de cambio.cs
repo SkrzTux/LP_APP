@@ -2,9 +2,8 @@ using System;
 
 namespace LP_APP.Web.Models
 {
-    public class Suplidores
+    public class Tasas_de_Cambio
     {
-        public string Suplidores { get; set; }
+        public string tasasdecambio { get; set; }
     }
-    public DbSet<Suplidores> Suplidores { get; set; }
 }

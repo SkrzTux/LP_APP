@@ -2,10 +2,8 @@ using System;
 
 namespace LP_APP.Web.Models
 {
-    public class Clientes
-    {
-        public string Clientes { get; set; }
-    }
+    public class Clasificacion_Suplidores
+    { 
 
-    public DbSet<Owner> Clientes { get; set; }
+    }
 }
